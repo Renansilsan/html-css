@@ -24,15 +24,15 @@ Estou apredendo a criar sites e agora vou gerenciar meus repositórios:
     <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-002/exercicio-018-gradientes-em-css/index.html">Exercício - 018 - Gradientes em CSS</a></li>
     <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-002/exercicio-019-site-exemplo/index.html">Exercício - 019 - Site exemplo</a></li>
     <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-002/exercicio-020-fontes-em-css/index.html">Exercício - 020 - Fontes em CSS</a></li>
-    <li><a href="">Exercício - 021 - Fontes com Google Fontes</a></li>
-    <li><a href="">Exercício - 022 - Fontes externas</a></li>
-    <li><a href="">Exercício - 023 - Alinhamentos</a></li>
-    <li><a href="">Exercício - 024 - Usando ID com CSS</a></li>
-    <li><a href="">Exercício - 025 - DIV e Pseudoclasses</a></li>
-    <li><a href="">Exercício - 026 - Exemplo de Hover</a></li>
-    <li><a href="">Exercício - 027 - Personalizando links</a></li>
-    <li><a href="">Exercício - 028 - Testando Pseudoclasses e pseudoelementos</a></li>
-    <li><a href="">Exercício - 029 - Modelo de caíxas</a></li> 
-    <li><a href="">Exercício - 030 - Groupping Tags</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-002/exercicio-021-fontes-com-google-fonts/index.html">Exercício - 021 - Fontes com Google Fontes</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-002/exercicio-022-fontes-externas/index.html">Exercício - 022 - Fontes externas</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-002/exercicio-023-alinhamentos/index.html">Exercício - 023 - Alinhamentos</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-002/exercicio-024-usando-id-com-css/index.html">Exercício - 024 - Usando ID com CSS</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-002/exercicio-025-div-e-pseudo-classes/index.html">Exercício - 025 - DIV e Pseudoclasses</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-002/exercicio-026-exemplo-de-hover/index.html">Exercício - 026 - Exemplo de Hover</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-002/exercicio-027-personalisando-links/index.html">Exercício - 027 - Personalizando links</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-002/exercicio-028-testando-pseudoclasses-e-psseudoelementos/index.html">Exercício - 028 - Testando Pseudoclasses e pseudoelementos</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-002/exercicio-029-modelo-de-caixas/index.html#">Exercício - 029 - Modelo de caíxas</a></li> 
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-002/exercicio-030-groupping-tags/index.html">Exercício - 030 - Groupping Tags</a></li>
 
 </ul>

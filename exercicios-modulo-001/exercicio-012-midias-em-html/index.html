@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <P>Tente abrir essa imagem em diversos dispositivos diferentes ou simplesmente aumente e diminua o tamanho do navegador. Para que a imagem seja carregada de acordo com o dispositivo ultilizado, celular, tablet ou computador, por exemplo, ultilizar a <mark>TAG SOURCE:MEDIA:TYPE</mark>, trocar o escrito em media para <mark>"(max-width: informar a dimenção maxima para que a imagem seja trocada)"</mark>, em <mark>SRCSET</mark> descrever o nome do arquivo (não aceita o comando Control + Espaço, terá que descrver o atalho para da pasta até o arquivo) e <mark>TYPE</mark> informar tipo do arquivo <mark>"Imagem/PNG"</mark>. por exemplo. Essa  TAG é ultilizada para que o sistema modifique o tamanho do arquivo de acordo com o dispositivo de navegação, caso seja um celular usará imagem pequena, se for um Tablet será uma imagem média ou caso seja um computador será a imagem grande. Sempre ordenar as imagens da maior para a menor, apenas dessa forma o código funcionará,</P>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Foto grande PNG">
+    </picture>
+    <h1>Dimenção de imagem</h1>
+    <h2>Imagens pequenas</h2>
+    <p>Ultilizando o <mark>GIMP</mark> para edição das imagens</p>
+    <p>Iniciar abrindo a aba <mark>ARQUIVO</mark> e posteriormente <mark>NOVO</mark>, para criar uma nova imagem, uma imagem pequena terá <mark>LARGURA</mark> e <mark>ALTURA</mark> em torno de <mark>300 X 300</mark> e  <mark>RESOLUÇÃO</mark> X e Y em torno de <mark>80</mark></p>
+    <p>Para incluir uma imagem no site, incluir a <mark>TAG PICTURE</mark> e posteriormente a <mark>TAG IMG</mark>, carregar a imagem usando Control + Espaço.</p>
+    <h2>Imagens médias</h2>
+    <p>Iniciar abrindo a aba <mark>ARQUIVO</mark> e posteriormente <mark>NOVO</mark>, para criar uma nova imagem, uma imagem média terá <mark>LARGURA</mark> e <mark>ALTURA</mark> em torno de <mark>700 X 700</mark>, <mark>RESOLUÇÃO</mark> X e Y em torno de <mark>80</mark></p>
+    <h2>Imagens grandes</h2>
+    <p>Iniciar abrindo a aba <mark>ARQUIVO</mark> e posteriormente <mark>NOVO</mark>, para criar uma nova imagem, uma imagem grande terá <mark>LARGURA</mark> e <mark>ALTURA</mark> em torno de <mark>1000 X 1000</mark>, <mark>RESOLUÇÃO</mark> X e Y em torno de <mark>80</mark></p>
+
+    <h1>Reproduzindo áudio em HTML</h1>
+    <h2>Vamos aprender a reproduzir áudio em HTML</h2>
+    <audio preload="metadata" autoplay controls loop> 
+        <source src="Áudio/Lullaby - Cooper Cannell.mp3" type="audio/mpeg">
+        <source src="Áudio/Lullaby - Cooper Cannell.ogg" type="audio/ogg">
+        <source src="Áudio/Lullaby - Cooper Cannell.wav" type="audio/wav">
+    </audio>
+    <p>Para incluir audio no site, iniciamos unsando a <mark>TAG ÁUDIO</mark> apagar a <mark>TAG SOURCE</mark> incluída automaticamente, dentro da <mark>TAG ÁUDIO</mark> podemos incluir a <mark>TAG PRELOAD</mark>, dentro de Preload teremos 3 opções, <mark>AUTO</mark> "o site só aparecerá completo após todo o audio ser carregado", <mark>METADATA</mark> "o site carregará apenas algumas informações, como data e nome do arquivo" e <mark>NONE</mark> "não carregrá qualquer informação apenas quando o usuario clicar em play" <mark>TAG AUTOPLAY</mark> "para que o audio seja reproduzido automaticamente, porém alguns navegadores não são compativeis", caso a <mark>TAG AUTOPLAY</mark> não funcione, incluir a <mark>TAG CONTROLS</mark> para que apareça um menu onde o usuario do site possa dar play no audio e também podemos ultilizar a <mark>TAG LOOP</mark>, para que o áudio seja reproduzido novaente quando finalizar. Dar enter e na próxima linha incluir a <mark>TAG SOURCE:SRC</mark>, incluir o arquivo usando Control + Espaço e na <mark>TAG TYPE</mark> incluir ÁUDIO + /e o formato do arquivo, por exemplo Áudio/mpeg.</p>
+    <p>Incluir mais de um formato de áudio no código, pois se o nagegador do usario não conseguir reproduzir o primeiro formato, o navegador tentará reproduzir o segundo formato.</p>
+    <h2>Tipos de formato de áudio</h2>
+    <p>Os mais comuns são <mark>MP3/MPEG</mark>, <mark>OGG</mark> e <mark>WAV</mark>, por serem mais leves e de fácil compactação arquivos com formato MPEG e OGG são mais indicados para sites enquandto o formato WAV tem qualidade melhor porém são mais pesados e inviaveis para incluir em sites.</p>
+    <h2>Direitos autorais em áudio</h2>
+    <p>Uma plataforma para pesquisa de áudios para incluir em um site sem direitos autorais é o <a href="https://studio.youtube.com/channel/UCC30cLHrpMJL8Bi_QFehd5w/music" target="_blank" rel="external">Youtube Studio</a>, entrar no youtube, menu principal, youtube studio, blilioteca de áudio e filtrar. Áudios que são <mark>NECESSÁRIO ATRIBUIÇÃO</mark> precisam ter um termo, incluso no proprio site, junto com o código por questões de liberação de direitos autorais, áudios <mark>ATRIBUIÇÃO NÃO NECESSÁRIA</mark> está leberado para inclusão sem necessidade de inclusão do termo.</p>
+    
+</body>
+</html>

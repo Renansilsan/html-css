@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+        }
+        div:hover {
+            color: red;
+            color: white;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>Passe o mouse aqui.
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p>Fim do exemplo</p>
+    <h1>Como incluir um texto escondido</h1>
+    <p>Primeiro vamos configurar a página que aparecerá antes de passar o mouse, começameos incluindo o seletor DIV + > "para indicar que pertende ao DIV" + a <mark>TAG DISPLAY</mark> "para fazermos configurações como <mark>NONE</mark> ou <mark>BLOCK</mark> para que o texto fique visivel ou não" neste caso incluiremos o NONE, para informar que este texto não ficará visivel. </p>
+    <p>Segundo passo, criar um seletor DIV + : + HOVER, fazer as configurações para que quando o mouse passar sobre as DIVs elas ficarão da forma que foi configurada, neste caso elas ficarão com a cor vermelha de fundo e a fonte ficará branca.</p>
+    <p>Por ultimo incluir DIV + : + HOVER + > + P para indicar que quando o mouse passar dentro da DIV incluida o texto configurado neste seletor aparecerá, incluir a TAG DISPLAY e selecionar BLOCK para indicar que o texto tem que ser desbloqueado quando o mouse passar.</p>
+</body>
+</html>

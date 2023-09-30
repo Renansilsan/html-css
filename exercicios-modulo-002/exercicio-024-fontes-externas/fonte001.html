@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family:Gotic ;
+            src: url('fontes/NITEMARE.TTF') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: Ghost;
+            src: url('fontes/Ghost\ theory\ 1.ttf')format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: 'Ghost', sans-serif;
+            font-weight: normal;
+            
+        }
+        h1 {
+            font-family: 'Gotic';
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur magnam illo ea nesciunt ducimus obcaecati soluta debitis quos similique voluptas eum, ut reiciendis error sint dignissimos recusandae incidunt distinctio et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sit pariatur voluptatum cupiditate officiis alias dolores voluptate corporis fugiat labore eum cumque, dolore aperiam, ab recusandae, magnam deleniti provident? Odio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt repellendus eveniet illum, neque eum possimus maiores, blanditiis esse dolore dignissimos doloremque minus. Quo commodi voluptatem, officia sed necessitatibus laborum! Quos?</p>
+
+    <h1 style="font-family: Arial, Helvetica, sans-serif; font-size: 2em;">Fontes externas</h1>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Começamos encontrando a fonte que deseja incluir no site, um bom repositório de pesquisa de fontes é o <a href="https://www.dafont.com/pt/" target="_blank" rel="External">Da Font</a>, baixar a fonte, extrair os arquivos e incluir em uma pasta dentro do documento de inicio da construção do site.</p>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Para incluirmos uma fonte externa, iniciamos adicionando um seletor <mark>@FONT-FACE-FONT-FAMILY</mark>, logo após a inclusão da <mark>TAG STYLE</mark>, em <mark>FONT-FAMILY</mark> incluir o nome que desejar para a fonte, na <mark>TAG SRC: URL</mark> entre os parênteses, incluir a pasta que contem o arquivo da fonte, colocar o arquivo sempre entre <mark>''</mark>, depois adicionar a <mark>TAG FORMAT</mark>, onde colocaremos o formato do arquivo da fonte, os arquivos mais comuns são OTF, quando arquivo for <mark>OTF</mark> incluir entre <mark>''</mark> <mark>OPENTYPE</mark>, e <mark>TTF</mark> incluir entre <mark>''</mark> <mark>TRUETYPE</mark>, as vezes será necessário incluir a <mark>TAG FONT-WEIGHT</mark> selecionando <mark>NORMAL</mark> para que o sistema não coloque a fonte em negrito.</p>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Para incluir a fonte no texto, dentro do seletor do titulo abriremos um <MARK>FONT-FAMILY</MARK> e incluir o nome da fonte incluida, sempre entre <MARK>''</MARK>.</p>
+    
+</body>
+</html>

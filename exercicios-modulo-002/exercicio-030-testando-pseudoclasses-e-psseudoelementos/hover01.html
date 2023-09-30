@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Pseudoclasses</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to top, #91F5F4, #81DBDA, #6BB5B4);
+            background-attachment: fixed;
+        }
+        div {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            background-color: purple;
+            color: white;
+            font-weight: bolder;
+        }
+        a {
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            color: darkred;
+        }
+        a:active {
+            color: red;
+        }
+        .Gratuito::before {
+            content: '  ▶';
+        }
+        .Pago::before {
+            content: '  $';
+        }
+        a::after {
+            content:'  [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Hover</h1>
+    <div> Clique aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <h1>Links com Hover</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/" target="_blank" rel="External" class="Gratuito">Youtube</a></li>
+        <li><a href="https://www.directvgo.com/player/live/CH0100000000064" target="_blank" rel="Exernal" class="Pago">Directv</a></li>
+        <li><a href="https://www.starplus.com/pt-br/home" target="_blank" rel="External" class="Pago">Star+</a></li>
+        <li><a href="https://play.hbomax.com/page/urn:hbo:page:home" target="_blank" rel="External" class="Pago">HBO</a></li>        
+    </ul>
+    <h1>O que fizemos</h1>
+    <p>Temos exemplos de ultilização de Pseudoclass no caso do <mark>HOVER</mark>, ultilizado para fazer com que o texto apareça assim que o mouse passe sobre a area selecionada, ultilizamos o pseudoelement <mark>BEFORE</mark> para determinar quais links citados são pagos e quais são gratuítos e usamos o pseudoelement <mark>AFTER</mark> para ênfatizar que aqueles itens são inks.</p>
+    
+</body>
+</html>

@@ -1,0 +1,19 @@
+@charset "UTF-8"
+
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1#principal {
+    color: #10343B;
+    text-align: center;
+    background-color: #7AF8FA;
+}
+.Matéria {
+    background-color: #7AF8FA;
+    color: #226D7A;
+}
+.Nível {
+    background-color: #7AF8FA;
+    color: #34A6BA;
+}

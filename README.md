@@ -1,7 +1,7 @@
 # html-css
- Curso de HTML5 e CSS3
+ <h1>Curso de HTML5 e CSS3</h1>
 
-Estou apredendo a criar sites e agora vou gerenciar meus repositórios:
+<h2>Estou apredendo a criar sites e agora vou gerenciar meus repositórios:</h2>
 
 <ul>
     <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-001/exercicio-001-meu-primeiro-site/index.html">Exercício - 001 - Meu primeiro site</a></li>

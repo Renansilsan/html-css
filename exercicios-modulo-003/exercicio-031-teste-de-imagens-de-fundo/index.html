@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando imagens de fundo</title>
+    <style>
+        :root {
+            --cor1: #73EBD1;
+            --cor2: #6EDFC6;
+            --cor3: #2E5E54;
+        }
+        body {
+            background-image: url('imagens/pattern001.png');
+            color: white;
+        }
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: darkblue;
+            padding-left: 5px;
+            padding-bottom: 10px;
+            border-radius: 15px;
+            background-image: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3));
+        }
+        div.Quadrado {
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+        }
+        div#Q1 {
+            background-color: purple;
+        }
+        div#Q2 {
+            background-image: linear-gradient(var(--cor1), var(--cor2), var(--cor3));
+        }
+        div#Q3 {
+            background-image: url('imagens/pattern004.png');
+        }
+        p {
+            background-color: white;
+            color: black;
+            padding: 10px 0px 10px 5px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando imagens de fundo</h1>
+    <div class="Quadrado" id="Q1">
+
+    </div>
+    <div class="Quadrado" id="Q2">
+
+    </div>
+    <div class="Quadrado" id="Q3">
+
+    </div>
+    <h1>Como incluir uma imagem como fundo</h1>
+    <p>Neste caso temos 3 exemplos de fundo, 1- Ultilizando <mark>BACKGROUND-COLOR</mark>, 2 - Ultilizando <mark>BACKGROUND-IMAGE</mark>, <mark>LINEAR-GRADIENT</mark> e selecionando a direção e as cores do degradê e o 3 - Ultilizando uma imagem, para incluir uma imagem como fundo temos que incluir a <mark>TAG BACKGROUND-IMAGE</mark> + <mark>URL</mark>, entre <mark>PARÊNTESES</mark> e posteriomente entre <mark>''</mark> incluir o caminho para chegar até o arquivo com a imagem desejada.</p>
+</body>
+</html>

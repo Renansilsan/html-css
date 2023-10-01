@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento de verticais</title>
+    <style>
+        #conteiner {
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            position: relative;
+            height: 500px;
+            padding: 10px;
+            background-color: purple;
+        }
+        #conteudo {
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #Conclusão {
+            background-color: lightblue;
+            border: 1px solid black;
+            margin-top: 15px;
+            padding: 0px 5px 0px 5px;
+            border-radius: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <section id="conteiner">
+        <article id="conteudo">
+
+        </article>
+    </section>
+    <aside id="Conclusão">
+        <h1>O que fizemos</h1>
+        <p>Fizemos este exemplo para demonstrar algumas TAGs de posicionamento de imagens. Iniciamos com a <mark>TAG POSITION</mark> que pode ser selecionado entre <mark>RELATIVE</mark>, que terá como referência o canto superior esuqeurdo da tela e a partir de sua posição de partida iniciar as modificações desejadas, ja a opção <mark>ABSOLUTE</mark> terá 2 comportamentos, quando estiver dentro de uma caíxa com posicionamento <mark>STATIC</mark> ou sozinha na tela, ela sempre seguirá seu alinhamento inicial no canto superior esquerdo da tela. Caso esteja dentro de uma caíxa que não seja <mark>STATIC</mark>, ele sempre acompanhará a formatação da caixá que está a sua volta. Com o <mark>ABSOLUTE</mark> podemos configurar o elemento com as TAGs <mark>LEFT</mark> e <mark>TOP</mark>, podendo ultilizar <mark>%</mark> para definir o posicionamento, usamos também a <mark>TAG TRANSFORM: TRANSLATE</mark> para alinhar a imagem perfeitamente com o alvo.</p>
+    </aside>
+    
+</body>
+</html>

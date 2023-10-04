@@ -34,5 +34,12 @@
     <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-002/exercicio-028-testando-pseudoclasses-e-psseudoelementos/index.html">Exercício - 028 - Testando Pseudoclasses e pseudoelementos</a></li>
     <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-002/exercicio-029-modelo-de-caixas/index.html#">Exercício - 029 - Modelo de caíxas</a></li> 
     <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-002/exercicio-030-groupping-tags/index.html">Exercício - 030 - Groupping Tags</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-003/exercicio-031-teste-de-imagens-de-fundo/index.html">Exercicio - 031 - Teste de imagens de fundo</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-003/exerc%C3%ADcio-032-personaliza%C3%A7%C3%A3o-de-fundo/index.html">Exercicio - 032 - Personalização de fundo</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-003/exercicio-033-posi%C3%A7%C3%A3o-dos-fundos/index.html">Exercicio - 033 - Posição dos fundos</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-003/exercicio-034-teste-de-imagem-de-fundo-com-texto/index.html">Exercicio - 034 - Teste de imagem de fundo com texto</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-003/exercicio-035-alinhamento-vertical/index.html">Exercicio - 035 - Alinhamento vertical</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-003/exercicio-036-tabelas/index.html">Exercicio - 036 - Tabelas</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-003/exercicio-036-tabelas-grandes/index.html">Exercicio - 037 - Tabelas Grandes</a></li>
 
 </ul>

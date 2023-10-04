@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupando colunas com Golgrup</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+            background-color: pink;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .cnome {
+            background-color: chartreuse;
+        }
+        .csexo {
+            background-color: blue;
+            color: white;
+        }
+        .cidade {
+            background-color: red;
+        }
+        .cprof {
+            background-color: silver;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastros</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Vendedor</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>Ultilizando Colgrup</h1>
+    <p>Para fazermos alterações em massa a <mark>TAG COLGRUP</mark> é perfeita. Dentro de TABLE podemos incluir a <mark>TAG COLGRUP</mark> e dentro <mark>TAG</mark> incluir a quantidade de <mark>COL</mark> referente a quantidade de colunas da tabela, depois criar <mark>CLASSES</mark> dentro de COL e fazer as alterações.</p>
+    
+</body>
+</html>

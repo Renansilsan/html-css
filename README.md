@@ -41,5 +41,9 @@
     <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-003/exercicio-035-alinhamento-vertical/index.html">Exercicio - 035 - Alinhamento vertical</a></li>
     <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-003/exercicio-036-tabelas/index.html">Exercicio - 036 - Tabelas</a></li>
     <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-003/exercicio-036-tabelas-grandes/index.html">Exercicio - 037 - Tabelas Grandes</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-003/exercicio-037-mesclagem-de-c%C3%A9lulas/index.html">Exercicio - 038 - Mesclagem de células</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-003/exercicio-038-desafio-mesclagem-de-tabelas/index.html">Exercicio - 039 - Desafio - Mesclagem de tabelas</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-003/exercicio-039-montando-tabelas-com-dados-reais/index.html">Exercicio - 040 - Montando tabelas com dados reais</a></li>
+    Exercicio - 
 
 </ul>

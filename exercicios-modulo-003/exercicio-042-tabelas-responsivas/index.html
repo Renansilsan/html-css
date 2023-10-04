@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas responsivas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tr:nth-child(2n) {
+            background-color: rgba(155, 150, 150, 0.795);
+        }
+        div#container {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <table>
+            <caption> Tabelas responsivas</caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Janeiro</th>
+                    <th>Fevereiro</th>
+                    <th>Março</th>
+                    <th>Abril</th>
+                    <th>Maio</th>
+                    <th>Junho</th>
+                    <th>Julho</th>
+                    <th>Agosto</th>
+                    <th>Setembro</th>
+                    <th>Outubro</th>
+                    <th>Novembro</th>
+                    <th>Dezembro</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>TV "40"</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Home Theater</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td> Samsung Galaxy S20</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Ipad Mini</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Playstation 4</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Lava louças</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Amazon Echo</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <h1>Como deixar uma tabela responsiva</h1>
+    <p>Quando uma tiver um número muito grande de linhas ou colunas que faça com que o site tenha fazer uma rolagem lateral, podemos resolver da seguinte maneira. 1 - Evelopar toda a tabela em uma <mark>DIV</mark> 2 - Criar um <mark>ID/CLASS</mark> para a <mark>DIV</mark> e 3 - Configurar com a <mark>TAG OVERFLOW: AUTO</mark>, caso o número de linhas seja muito grande usar <mark>OVERFLOW-Y</mark> caso seja o número de colunas usar <mark>OVERFLOW-X</mark>, fazendo isso será criado uma barra de rolagem apenas para a tabela. </p>
+</body>
+</html>

@@ -44,6 +44,8 @@
     <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-003/exercicio-038-mesclagem-de-c%C3%A9lulas/index.html">Exercicio - 038 - Mesclagem de células</a></li>
     <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-003/exercicio-039-desafio-mesclagem-de-tabelas/index.html">Exercicio - 039 - Desafio - Mesclagem de tabelas</a></li>
     <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-003/exercicio-040-montando-tabelas-com-dados-reais/index.html">Exercicio - 040 - Montando tabelas com dados reais</a></li>
-    Exercicio - 
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-003/exercicio-041-desafio-montando-uma-tabela-completa/index.html">Exercicio - 041 - Desafio - Montando uma tabela completa</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-003/exercicio-042-agrupando-colunas-com-colgrup/index.html">Exercicio - 042 - Agrupando colunas com Colgrup</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-003/exercicio-043-tabelas-responsivas/index.html">Exercicio - 043 - Tabelas responsivas</a></li>
 
 </ul>

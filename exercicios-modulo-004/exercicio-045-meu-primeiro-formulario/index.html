@@ -25,6 +25,22 @@
         <input type="text" name="sobrenome" id="isobrenome"></p>
     <p><input type="submit" value="Enviar"></p>
 </form>
+
+<form action="cadastro.php" method="post" autocomplete="on">
+    <p>
+        <label for="iusu">Usuário</label>
+        <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="20" placeholder="Nome de usuário" autocomplete="username">
+    </p>
+    <p>
+        <label for="isen">Senha</label>
+        <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" size="20" placeholder="Minínimo 8 letras" autocomplete="current-password">
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="submit" value="Limpar">
+    </p>
+</form>
+
 <h1>Formulários</h1>
 <h2>Como construir um formulário</h2>
 <p class="conclusao">Inciamos a construção de um formulário ultilizando a TAG FORM, dntro da TA G e de um PARÁGRAFO incluir o NOME do campo do formulário + <mark>:</mark>, incluir a TAG IMPUT-TEXT,, para informar que será uma caíxa de texto.</p>
@@ -39,6 +55,8 @@
         <li>POST - O POST é ultlizado para quando as informações solícitadas no formulário são sensiveis e não podem ser exibidas, porém outros usuários conseguem acessar as informações, por tanto não é recomendada para dados sígilosos como senhas, nestes casos usaremos proteção por HTTPS</li>
     </ul>
 </p>
+<h2>Criando formuláio com usuário e senha</h2>
+<p>Temos algumas TAGs muito importantes para imputar no código para construção de formulários que terão informações mais especificas, incluir todas dentro da TAG INPUT. Quando formos criar um campo para preenchimento de senha usar a TAG INPUT-PASSWORD, TAG MINLENGTH e MAXLENGTH para definir o minímo e o máximo de caracteres que terá o campo, TAG SIZE para configurar o tamanho do campo, 8 para 8 caracteres, por exemplo e a TAG AUTUCOMPLETE, caso o campo seja para informações de usuário, podemos selecionar USERNAME, caso seja uma senha selecionar CURRENT-PASSWORD e caso seja um campo para uma nova senha selecionar NEW-PASSWORD. </p>
     
 </body>
 </html>

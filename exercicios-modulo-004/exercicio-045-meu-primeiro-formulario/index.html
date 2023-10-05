@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p.conclusao {
+            text-indent: 30px;
+        }
+        li#get {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<h1>Meu primeiro formulário</h1>
+<form action="cadastro.php" method="post" autocomplete="off">
+    <p><label for="inome">Nome:</label> 
+        <input type="text" name="nome" id="inome"></p>
+    <p><label for="isobrenome">Sobrenome:</label> 
+        <input type="text" name="sobrenome" id="isobrenome"></p>
+    <p><input type="submit" value="Enviar"></p>
+</form>
+<h1>Formulários</h1>
+<h2>Como construir um formulário</h2>
+<p class="conclusao">Inciamos a construção de um formulário ultilizando a TAG FORM, dntro da TA G e de um PARÁGRAFO incluir o NOME do campo do formulário + <mark>:</mark>, incluir a TAG IMPUT-TEXT,, para informar que será uma caíxa de texto.</p>
+<p class="conclusao">Também incluímos dentro de FORM a TAG IMPUT-SUMIT, para incluir um botão que ao ser clicado as informações contidas nas caixas serão enviadas. Para desligar o completar automático, ultilizar a TAG AUTOCOMPLETE="off", dentro de FORM.</p>
+<h2>Como relacionar os campos</h2>
+<p class="conclusao">A principio o HTML não indica que o nome informado para o campo tem relação com o espaço para preenchimento colocado a frente dele, para fazermos este link de informações devemos,1 - Criar um action dentro de FORM e incluir o arquivo, normalmente PHP ou Javascript, cadastro.php ou cadastro.js, por exemplo, 2 - Envelopar o nome do campo e incluir a TAG LABEL, 3 - Denro da TAG teremos um FOR, dentro deste for devemos informar o nome do ID preenchido dentro da TAG IMPUT.</p>
+<h2>Poste e Get</h2>
+<p class="conclusao">Precisamos também pensar na segurança dos dados que serã preenchido no formulário, inicialmente temos 2 opções, dentro da TAG FORM incluiremos a TAG METHOD, que nos dará as opções de seleção GET e POST;
+    <ul>
+        <li id="get">GET - O GET é ultilizado para quando as informações solicitadas no formulário não serão sensíveis e nem sígilosas, pois os dados aparecem na URL após envio dos dados, importante frizar que os dados em GET não podem utrapassar 3000 BYTES, por tanto não é recomendada para arquivos ou campos com muitas infprmações;</li>
+
+        <li>POST - O POST é ultlizado para quando as informações solícitadas no formulário são sensiveis e não podem ser exibidas, porém outros usuários conseguem acessar as informações, por tanto não é recomendada para dados sígilosos como senhas, nestes casos usaremos proteção por HTTPS</li>
+    </ul>
+</p>
+    
+</body>
+</html>

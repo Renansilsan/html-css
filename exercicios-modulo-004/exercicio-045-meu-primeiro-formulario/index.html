@@ -37,18 +37,18 @@
     </p>
     <p>
         <input type="submit" value="Enviar">
-        <input type="submit" value="Limpar">
+        <input type="reset" value="Limpar">
     </p>
 </form>
 
 <h1>Formulários</h1>
 <h2>Como construir um formulário</h2>
-<p class="conclusao">Inciamos a construção de um formulário ultilizando a TAG FORM, dntro da TA G e de um PARÁGRAFO incluir o NOME do campo do formulário + <mark>:</mark>, incluir a TAG IMPUT-TEXT,, para informar que será uma caíxa de texto.</p>
-<p class="conclusao">Também incluímos dentro de FORM a TAG IMPUT-SUMIT, para incluir um botão que ao ser clicado as informações contidas nas caixas serão enviadas. Para desligar o completar automático, ultilizar a TAG AUTOCOMPLETE="off", dentro de FORM.</p>
+<p class="conclusao">Iníciamos a construção de um formulário ultilizando a <mark>TAG FORM</mark>, dentro da TAG e de um <mark>PARÁGRAFO</mark> incluir o <mark>NOME</mark> do campo do formulário <mark>+</mark> <mark>:</mark>, incluir a <mark>TAG IMPUT-TEXT</mark>, para informar que será uma caíxa de texto.</p>
+<p class="conclusao">Também incluímos dentro de <mark>FORM</mark> a <mark>TAG IMPUT-SUBMIT</mark>, para incluir um botão que ao ser clicado as informações contidas nas caixas serão enviadas. Para desligar o completar automático, ultilizar a <mark>TAG AUTOCOMPLETE="off"</mark>, dentro de <mark>FORM</mark>.</p>
 <h2>Como relacionar os campos</h2>
-<p class="conclusao">A principio o HTML não indica que o nome informado para o campo tem relação com o espaço para preenchimento colocado a frente dele, para fazermos este link de informações devemos,1 - Criar um action dentro de FORM e incluir o arquivo, normalmente PHP ou Javascript, cadastro.php ou cadastro.js, por exemplo, 2 - Envelopar o nome do campo e incluir a TAG LABEL, 3 - Denro da TAG teremos um FOR, dentro deste for devemos informar o nome do ID preenchido dentro da TAG IMPUT.</p>
+<p class="conclusao">A principio o HTML não indica que o nome informado para o campo tem relação com o espaço para preenchimento colocado a frente dele, para fazermos este link de informações devemos, 1 - Criar um <mark>ACTION</mark> dentro de <mark>FORM</mark> e incluir o arquivo, normalmente <mark>PHP</mark> ou <mark>JAVASCRIPT</mark>, cadastro.php ou cadastro.js por exemplo, 2 - Envelopar o nome do campo e incluir a <mark>TAG LABEL</mark>, 3 - Dentro da <mark>TAG</mark> teremos um <mark>FOR</mark>, dentro deste for devemos informar o <mark>NAME</mark> e o <mark>ID</mark> preenchido dentro da <mark>TAG IMPUT</mark>.</p>
 <h2>Poste e Get</h2>
-<p class="conclusao">Precisamos também pensar na segurança dos dados que serã preenchido no formulário, inicialmente temos 2 opções, dentro da TAG FORM incluiremos a TAG METHOD, que nos dará as opções de seleção GET e POST;
+<p class="conclusao">Precisamos também pensar na segurança dos dados que serã preenchido no formulário, inicialmente temos 2 opções, dentro da <mark>TAG FORM</mark> incluiremos a <mark>TAG METHOD</mark>, que nos dará as opções de seleção <mark>GET</mark> e <mark>POST</mark>;
     <ul>
         <li id="get">GET - O GET é ultilizado para quando as informações solicitadas no formulário não serão sensíveis e nem sígilosas, pois os dados aparecem na URL após envio dos dados, importante frizar que os dados em GET não podem utrapassar 3000 BYTES, por tanto não é recomendada para arquivos ou campos com muitas infprmações;</li>
 
@@ -56,7 +56,36 @@
     </ul>
 </p>
 <h2>Criando formuláio com usuário e senha</h2>
-<p>Temos algumas TAGs muito importantes para imputar no código para construção de formulários que terão informações mais especificas, incluir todas dentro da TAG INPUT. Quando formos criar um campo para preenchimento de senha usar a TAG INPUT-PASSWORD, TAG MINLENGTH e MAXLENGTH para definir o minímo e o máximo de caracteres que terá o campo, TAG SIZE para configurar o tamanho do campo, 8 para 8 caracteres, por exemplo e a TAG AUTUCOMPLETE, caso o campo seja para informações de usuário, podemos selecionar USERNAME, caso seja uma senha selecionar CURRENT-PASSWORD e caso seja um campo para uma nova senha selecionar NEW-PASSWORD. </p>
+<p class="conclusao">Temos algumas TAGs muito importantes para imputar no código para construção de formulários que terão informações mais especificas, incluir todas dentro da <mark>TAG INPUT</mark>. Quando formos criar um campo para preenchimento de senha usar a <mark>TAG INPUT-PASSWORD</mark>, <mark>TAG REQUIRE</mark> para definir que o campo é de preenchimento obrigatório, <mark>TAG MINLENGTH</mark> e <mark>MAXLENGTH</mark> para definir o minímo e o máximo de caracteres que terá o campo, <mark>TAG SIZE</mark> para configurar o tamanho do campo, "8" para 8 caracteres, por exemplo, e a <mark>TAG AUTUCOMPLETE</mark>, caso o campo seja para informações de usuário podemos selecionar <mark>USERNAME</mark>, caso seja uma senha selecionar <mark>CURRENT-PASSWORD</mark> e caso seja um campo para uma nova senha, selecionar <mark>NEW-PASSWORD</mark>, para o botão limpar podemos usar a <mark>TAG IMPUT:RESET</mark>, que os dados serão apagados quando clicado no campo..</p>
+
+<h1>Tabela média dos alunos</h1>
+<form action="cadastro.php" method="get" autocomplete="on">
+    <p>
+        <label for="inome">Nome</label>
+        <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo" autocomplete="name">
+        <p>
+        <label for="imedia">Média</label>
+        <input type="number" name="media"id="imedia" required placeholder="0 a 10" min="0"max="10" step="0.1">
+        </p>
+        <p>
+            <label for="imes">Período letivo</label>
+            <input type="month" name="mes" id="imes">
+        </p>
+        <p><label for="idia"> Data da prova</label>
+            <input type="date" name="dia" id="idia">
+        </p>
+        <p>
+            <label for="ihora">Horário da prova</label>
+            <input type="time" name="hora" id="ihora">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </p>
+    <h2>Como constrimos a tabela</h2>
+    <p class="conclusao">Para eleaborar a média usamos o <mark>INPUT:NUMBER</mark>, para que o campo não aceite letras, usamos o <mark>MIN</mark> e <mark>MAX</mark>, para determinar que os números serão de 0 a 10 e usamos o STEP e informar de quanto em quanto será progressão numérica, 0.1, por exemplo, faz com que o campo aceite números como 1.2, 2.7.</p>
+</form>
     
 </body>
 </html>

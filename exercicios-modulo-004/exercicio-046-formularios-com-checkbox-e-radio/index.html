@@ -14,7 +14,7 @@
 <body>
     <h1>Formulário com caixa de marcação</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
-        <fieldset>
+        <fieldset class="1sexo">
             <legend>Sexo</legend>
             <label for="imasculino"><input type="radio" name="sexo" id="imasculino" value="M"> Masculino</label>
             <label for="ifeminino"><input type="radio" name="sexo" id="ifeminino" value="F"> Feminíno</label>
@@ -32,7 +32,7 @@
                 <input type="reset" value="Limpar">
         </fieldset>
     </form>
-    <h1>Como construir um formulário com caíxas de marcação</h1>
+    <h2>Como construir um formulário com caíxas de marcação</h2>
 
     <ul>
         <li>INPUT:RADIO - Para construir caíxas onde apenas uma alternativa pode ser marcada, sempre colocar o mesmo nome dentro de <mark>NAME</mark> e incluir um <mark>VALUE</mark>, com qualquer digíto desde que não seja igual de outro input.;</li>
@@ -40,6 +40,14 @@
         <li>INPUT:CHECKBOX - Para construir caíxas onde mais de uma opção pode selecionada, a cada item incluído incluir um <mark>LABEL</mark> para cada <mark>INPUT</mark>;</li>
 
         <li>Sempre incluir os inputs dentro de um <mark>FORM</mark> e dentro de form criar um <mark>FIELDSET</mark>, para agrupar caíxas que pertecem ao mesmo assunto, podemos també criar um título para o agrupamento usando a <mark>TAG LEGEND</mark> e colocando o nome que desejar.</li>
+    </ul>
+    <h2>Formulário para anexar arquivos</h2>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <label for="ifoto"><input type="file" name="foto" id="ifoto"></label>
+    </form>
+    <h2>Como elaborar?</h2>
+    <ul>
+        <li>INPUT:FILE será a TAG ultilizada para construção de formulários para que o visitante possa anexar arquivos. OBS quando incluir este tipo de formulário temos que deixar sempre o <mark>METHODE="POST"</mark> para que o site consiga carregar todo o arquivo.</li>
     </ul>
     
 </body>

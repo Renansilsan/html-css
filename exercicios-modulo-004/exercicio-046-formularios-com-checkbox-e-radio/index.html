@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Formulário com caixa de marcação</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <label for="imasculino"><input type="radio" name="sexo" id="imasculino" value="M"> Masculino</label>
+            <label for="ifeminino"><input type="radio" name="sexo" id="ifeminino" value="F"> Feminíno</label>
+            <label for="isexo"><input type="radio" name="sexo" id="isexo" value="S"> Prefiro não comentar</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <label for="ibas"><input type="checkbox" name="Basquete" id="ibas"> Basquete</label><br>
+            <label for="ifut"><input type="checkbox" name="futebol" id="ifut"> Futebol</input></label><br>
+            <label for="inat"><input type="checkbox" name="natação" id="inat"> Natação</label><br>
+            <label for="iten"><input type="checkbox" name="Tênis" id="iten"> Tênis</label>
+        </fieldset>
+        <fieldset>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+        </fieldset>
+    </form>
+    <h1>Como construir um formulário com caíxas de marcação</h1>
+
+    <ul>
+        <li>INPUT:RADIO - Para construir caíxas onde apenas uma alternativa pode ser marcada, sempre colocar o mesmo nome dentro de <mark>NAME</mark> e incluir um <mark>VALUE</mark>, com qualquer digíto desde que não seja igual de outro input.;</li>
+
+        <li>INPUT:CHECKBOX - Para construir caíxas onde mais de uma opção pode selecionada, a cada item incluído incluir um <mark>LABEL</mark> para cada <mark>INPUT</mark>;</li>
+
+        <li>Sempre incluir os inputs dentro de um <mark>FORM</mark> e dentro de form criar um <mark>FIELDSET</mark>, para agrupar caíxas que pertecem ao mesmo assunto, podemos també criar um título para o agrupamento usando a <mark>TAG LEGEND</mark> e colocando o nome que desejar.</li>
+    </ul>
+    
+</body>
+</html>

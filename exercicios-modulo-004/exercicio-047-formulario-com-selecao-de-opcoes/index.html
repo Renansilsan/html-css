@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Formulário com lista de opções</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p>
             <label for="iest">Estado</label>
             <select name="estado" id="iest">
@@ -40,7 +40,16 @@
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </p>
+        <p>
+            <label for="imsg">Mensagem</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
     </form>
-    
+    <h2>Criando formulários com Select, Datalist e Textárea</h2>
+    <ul>
+        <li>Select - Podemos usar o <mark>SELECT</mark> para construir formulários com opções que não podem ser alteradas, neste exemplo temos uma lista feita com estados, como só existem uma certa lista de estados, não há como informar outra opção. Para construir o formulário começamos incluindo um <mark>LABEL</mark> e abaixo a <mark>TAG SELECT</mark> lincando os IDs, na linha abaixo vamos incluir um OPTGROUP, para agrupar opções, neste exemplo separamos as opções de acordo com cada região, dentro de <mark>OPTGROUP</mark> começamos a incluir os dados com a <mark>TAG OPTION</mark> e informamos a sígla de cada estado dentro de <mark>VALUES;</mark></li><br>
+        <li>Datalist - Diferentemente do select, usamos o <mark>DATALIST</mark> para formulários em que pode ser incluído informações pelo usuário, temos o exemplo em que o usuário deve preencher a profissão, como há um número muito grande de profissões, colocamos algumas opções, porém o usuário pode incluir alguma caso a que ele deseja selecionar não esteja dentre as opções. Para construir a tabel iniciamos com o <mark>LABEL</mark>, na linha seguinte adicionameos o <mark>INPUT:TEXT</mark> e lincamos os IDs, na linha subsequênte colocamos a <mark>TAG DATALIST</mark> e lincamos os IDs, agora começamos a incluir os dados e cada dado será incluido dentro de <mark>DATALIST</mark> e dentro da <mark>TAG OPTION</mark>;</li><br>
+        <li>TEXTAREA - Para adicionar uma caixa de texto em que o usuário possa deixar uma mensagem  suamos a <mark>TAG TEXTAREA</mark>. Para imputar a caíxa de texto vamos primeiro incluir um <mark>LABEL</mark> e na linha seguinte a <mark>TAG TEXTAREA</mark>, depois lincamos os IDs. É aconselhavel que o <mark>METHOD</mark>E da lista seja <mark>POST</mark> para que não haja problemas com envio de dados caso o texto escrito na caíxa seja muito grande.</li>
+    </ul>
 </body>
 </html>

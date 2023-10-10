@@ -24,7 +24,7 @@ body {
     background-repeat: no-repeat;
 }
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 2000px) {
 body {
     background-image: url(imagens/cev-landscape.jpg);
     background-position: left bottom;

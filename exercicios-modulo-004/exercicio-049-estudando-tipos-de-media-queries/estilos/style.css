@@ -16,7 +16,7 @@ h1 {
     text-shadow: 2px 2px 0px #1526a7;
     padding: 10px;
 }
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 1000px) {
 body {
     background-image: url(imagens/cev-portrait.jpg);
     background-position: center bottom;

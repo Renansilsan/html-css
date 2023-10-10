@@ -34,10 +34,13 @@ span.material-symbols-outlined:hover {
 
 menu {
     display: none;
+    margin: auto;
+    padding: 0px;
 }
 
 menu > ul {
     list-style-type: none;
+    padding: 0px;
 }
 
 menu > ul > li > a {

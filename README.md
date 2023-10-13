@@ -53,7 +53,7 @@
     <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-004/exercicio-047-formulario-com-selecao-de-opcoes/index.html">Exercício - 047 - Formulário com seleção de opções</a></li>
     <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-004/exercicio-048-media-query/index.html">Exercício - 048 - Media Query</a></li>
     <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-004/exercicio-049-estudando-tipos-de-media-queries/index.html">Exercício - 049 - Estudando tipos de Media Query</a></li>
-    <li><a href="file:///C:/Users/DELL/Documents/estudos/html-css/exercicios-modulo-004/exercicio-050-projeto-media-query/index.html">Exercício - 050 - Projeto Media Query</a></li>
-    <li><a href="file:///C:/Users/DELL/Documents/estudos/html-css/exercicios-modulo-004/exercicio-051-media-query-menu-responsivo/index.html">Exercício - 051 - Media Query - Menu responsivo</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-004/exercicio-050-projeto-media-query/index.html">Exercício - 050 - Projeto Media Query</a></li>
+    <li><a href="https://renansilsan.github.io/html-css/exercicios-modulo-004/exercicio-051-media-query-menu-responsivo/index.html">Exercício - 051 - Media Query - Menu responsivo</a></li>
 
 </ul>
